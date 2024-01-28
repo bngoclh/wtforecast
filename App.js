@@ -9,6 +9,8 @@ import bgImg from "./assets/4.png";
 import {PermissionsAndroid} from 'react-native';
   PermissionsAndroid.request(PermissionsAndroid.PERMISSIONS.POST_NOTIFICATIONS);
 
+// Hello ahihihi đay la comment test vs viet :))))
+
 const App = () => {
   const [toggleSearch, setToggleSearch] = useState("city");
   const [city, setCity] = useState("Toronto");
